@@ -3,8 +3,6 @@ title: Découverte du framework TFJS
 description: Découverte du framework TFJS
 ---
 
-![alt](./src/assets/banner_tfjs.webp)
-
 Dans cet article, nous allons explorer comment créer votre propre système de sécurité qui utilise TensorFlow.js pour détecter la présence d'une personne dans les caméras de votre ordinateur. Cette démonstration montre comment l'intelligence artificielle peut être intégrée dans des applications web pour créer des fonctionnalités innovantes et interactives
 
 Cette article est redigé dans le but de vous faire une première découverte et donc de s'abstraire des difficultées, mais ne vous en faites pas, le prochain article est consacré à la manipulation des tenseurs
