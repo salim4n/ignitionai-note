@@ -40,11 +40,7 @@ Vous pouvez tester l'app ici :
 C'est une implémentation extrêmement simple d'un modèle de detection d'objet, l'objectif ? Envoyer une notification telegram à chaque detections de personne. Dans ce projet on utilise azure pour la persistance des données. Azure table pour l'utilisateur et azure blob pour le stockage des detections. Vous pouvez utiliser ce code et heberger à votre guise, de mon côté je paye **zéro euro** pour ce projet sur azure.
 
 **C’est une application next.js avec typescript et tailwind-css.**
-
-**Voici l’architecture du projet :**
-![alt](./src/assets/arch_pretorian.webp)
 **Il y'a beaucoup de code mais concentrons nous sur l'implémentation de tensorflow.js et donc du composant** `Board.tsx`
-
 **Imports et Dépendances**
 
 - Le code commence par importer les bibliothèques et les composants nécessaires, notamment `TensorFlow.js`, `coco-ssd` pour la détection d'objets, `react-webcam` pour accéder à la webcam, et divers composants d'interface utilisateur.
