@@ -11,8 +11,6 @@ En hébergement, j'utilise azure et vercel, libre à vous d'adapter le code pour
 
 Verisure ne passera plus jamais chez vous après cette article. 😉
 
-![alt](./src/assets/salim_verisure.webp)
-
 ### Qu'est-ce que TensorFlow.js ?
 
 TensorFlow.js est une bibliothèque open-source qui permet d'exécuter des modèles de machine learning directement dans le navigateur ou sur Node.js.
