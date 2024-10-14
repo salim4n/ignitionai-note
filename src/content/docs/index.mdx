@@ -14,3 +14,21 @@ hero:
       link: /tutoriel/accueil
       icon: pen
 ---
+
+import { Card, CardGrid } from "@astrojs/starlight/components"
+
+<CardGrid stagger>
+  <Card title="Qui suis je ?" icon="star">
+    Ingénieur logiciel certifié Azure et TensorFlow, je propose des solutions au
+    forfait complètes de MLOps et d'inférence IA, avec une expertise
+    particulière en vision par ordinateur. ![salim](/salim.png)
+  </Card>
+  <Card title="" icon="rocket">
+    Ce blog est construit dans le but de vous aider dans vos projets impliquant
+    l'intelligence artificielle. Vous trouverez ici toutes les ressources pour
+    développer vos projets. Du MLOps multi cloud à la détection d'objets, en
+    passant par l'inférence WebGL, vous trouverez toutes les ressources pour
+    vous aider dans vos projets.
+    <br />
+  </Card>
+</CardGrid>
