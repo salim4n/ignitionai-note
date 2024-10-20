@@ -19,7 +19,7 @@ Les principales étapes d’un projet de Data Science incluent :
 
 Les **notebooks Jupyter** sont des environnements interactifs qui permettent d'exécuter du code Python, de visualiser des données et de documenter le processus analytique dans une interface unique. Ils sont largement utilisés en Data Science pour la **prototypage**, l'exploration des données, et la **présentation des résultats**.
 
-### Avantages des Notebooks Jupyter :
+### Avantages des Notebooks Jupyter
 
 - **Interactive** : Vous pouvez exécuter du code cellule par cellule, permettant ainsi de tester rapidement des hypothèses ou de corriger des erreurs.
 - **Documentation intégrée** : Vous pouvez ajouter des explications sous forme de texte, de titres, et de graphiques directement dans le notebook, facilitant la compréhension des processus de Data Science.
