@@ -11,7 +11,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "IgnitionAI",
-      favicon: "./src/assets/IgnitionAI.png",
+      favicon: "./favicon.png",
       logo: {
         replacesTitle: true,
         src: "./src/assets/IgnitionAI.png",
