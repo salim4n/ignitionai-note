@@ -458,9 +458,7 @@ public class ONNXModelRunner
    - Utilisez memory pinning
    - Monitoring avec ETW ou perf counters
 
-[Contenu précédent inchangé jusqu'à la section cas d'usage...]
-
-## 🎯 Cas d'Usage
+## 💪 Cas d'Usage
 
 ### 1. 🌐 Web Applications
 
