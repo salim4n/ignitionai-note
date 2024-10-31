@@ -14,7 +14,7 @@ export default defineConfig({
       favicon: "./favicon.png",
       logo: {
         replacesTitle: true,
-        src: "./src/assets/IgnitionAI.png",
+        src: "./src/assets/ignition_flame.gif",
         alt: "IgnitionAI",
       },
       social: {
