@@ -15,13 +15,16 @@ hero:
       icon: pen
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components"
+import { Card, CardGrid, LinkButton } from "@astrojs/starlight/components"
 
 <CardGrid stagger>
   <Card title="Qui suis je ?" icon="star">
-    Ingénieur logiciel certifié Azure et TensorFlow, je propose des solutions au
-    forfait complètes de MLOps et d'inférence IA, avec une expertise
-    particulière en vision par ordinateur. ![salim](/salim.png)
+    Freelance certifié Azure et TensorFlow,
+     je vous accompagne dans vos projets impliquant l'intelligence
+    artificielle. 
+    <br />
+    <br />
+          <LinkButton icon="external" target="_blank" href="https://calendly.com/laimeche160">Prendre rendez-vous</LinkButton>
   </Card>
   <Card title="" icon="rocket">
     Ce blog est construit dans le but de vous aider dans vos projets impliquant
@@ -30,5 +33,6 @@ import { Card, CardGrid } from "@astrojs/starlight/components"
     passant par l'inférence WebGL, vous trouverez toutes les ressources pour
     vous aider dans vos projets.
     <br />
+        ![salim](/profile-pic.png)
   </Card>
 </CardGrid>
