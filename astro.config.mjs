@@ -12,6 +12,10 @@ export default defineConfig({
 		starlight({
 			title: "IgnitionAI",
 			favicon: "./favicon.png",
+			customCss: [
+				// Relative path to your custom CSS file
+				"./src/styles/custom.css",
+			],
 			logo: {
 				replacesTitle: true,
 				src: "./src/assets/ignition_flame.gif",
