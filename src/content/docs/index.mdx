@@ -22,6 +22,10 @@ hero:
 ---
 
 import { Card, CardGrid, LinkButton } from "@astrojs/starlight/components"
+import {sendTelegramMessage} from "../config"
+
+{sendTelegramMessage()}
+
 
 <CardGrid stagger>
   <Card title="Qui suis je ?" icon="star">
