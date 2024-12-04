@@ -24,7 +24,7 @@ hero:
 import { Card, CardGrid, LinkButton } from "@astrojs/starlight/components"
 import {sendTelegramMessage} from "../config"
 
-{sendTelegramMessage()}
+{await sendTelegramMessage()}
 
 
 <CardGrid stagger>
